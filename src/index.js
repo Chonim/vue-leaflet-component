@@ -15,3 +15,7 @@ new Vue({
   },
   template: '<VueLeafletComponent/>'
 })
+
+export { VueLeafletComponent }
+
+export default VueLeafletComponent
