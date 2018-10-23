@@ -1,6 +1,6 @@
 {
   "name": "vue-leaflet-component",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "A Vue.js project",
   "author": "Chonim <chihoyoon1217@gmail.com>",
   "main": "dist/vue-leaflet-component.js",
