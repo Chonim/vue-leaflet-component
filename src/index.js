@@ -8,14 +8,13 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 /* eslint-disable no-new */
-new Vue({
-  el: '#app',
-  components: {
-    VueLeafletComponent
-  },
-  template: '<VueLeafletComponent/>'
-})
+// new Vue({
+//   el: '#app',
+//   components: {
+//     VueLeafletComponent
+//   },
+//   template: '<VueLeafletComponent/>'
+// })
 
 export { VueLeafletComponent }
-
 export default VueLeafletComponent
