@@ -24,7 +24,8 @@ const webpackConfig = merge(baseWebpackConfig, {
   devtool: config.build.productionSourceMap ? config.build.devtool : false,
   output: {
     path: config.build.assetsRoot,
-    filename: isProduction ? utils.assetsPath('vue-leaflet-component.min.js') : utils.assetsPath('vue-leaflet-component.js'),
+    // filename: isProduction ? utils.assetsPath('vue-leaflet-component.min.js') : utils.assetsPath('vue-leaflet-component.js'),
+    filename: utils.assetsPath('vue-leaflet-component.js'),
     chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
   },
   plugins: [
