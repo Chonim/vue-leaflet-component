@@ -3,7 +3,9 @@
   "version": "1.0.13",
   "description": "A Vue.js project",
   "author": "Chonim <chihoyoon1217@gmail.com>",
-  "main": "dist/vue-leaflet-component.js",
+  "main": "dist/vue-leaflet-component.min.js",
+  "module": "dist/vue-leaflet-component.min.js",
+  "unpkg": "dist/vue-leaflet-component.min.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./build/webpack.dev.js --open --inline --hot",
     "build:debug": "cross-env NODE_ENV=debug webpack --config build/webpack.dist.js",
@@ -20,7 +22,9 @@
     "url": "https://github.com/Chonim/vue-leaflet-component/issues"
   },
   "homepage": "https://github.com/Chonim/vue-leaflet-component/",
-  "dependencies": {},
+  "dependencies": {
+    "leaflet": "^1.3.4"
+  },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
@@ -41,6 +45,7 @@
     "friendly-errors-webpack-plugin": "^1.6.1",
     "html-webpack-plugin": "^2.30.1",
     "node-notifier": "^5.1.2",
+    "node-sass": "^4.9.4",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^1.2.0",
     "portfinder": "^1.0.13",
@@ -48,8 +53,10 @@
     "postcss-loader": "^2.0.8",
     "postcss-url": "^7.2.1",
     "rimraf": "^2.6.0",
+    "sass-loader": "^7.1.0",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
+    "style-loader": "^0.23.1",
     "uglifyjs-webpack-plugin": "^1.1.1",
     "url-loader": "^0.5.8",
     "vue": "^2.5.2",
