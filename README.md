@@ -22,3 +22,36 @@ new Vue({
   }
 })
 ```
+
+### Props
+#### width
+Type: `Number`<br>
+Required: `false`<br>
+Default: `800`
+
+#### height
+Type: `Number`<br>
+Required: `false`<br>
+Default: `600`
+
+#### zoom
+Type: `Number`<br>
+Required: `false`<br>
+Default: `2`
+
+#### latLng
+Type: `Array`<br>
+Required: `false`<br>
+Default: `800`
+
+#### tile
+Type: `String`<br>
+Required: `false`<br>
+Default: `osm`
+
+- Supported options
+
+  `osm`, `google`, `googleSatellite`, `stamenToner`, `stamenWatercolor`
+
+### Events
+#### init
